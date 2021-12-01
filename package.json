@@ -2,6 +2,7 @@
     "name": "mongod-config",
     "displayName": "Mongod config",
     "description": "Syntax highlight and formatter for Mongod config files",
+    "publisher": "dalirnet",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.62.0"
@@ -10,7 +11,7 @@
         "Programming Languages",
         "Formatters"
     ],
-    "icon": "./icon.png",
+    "icon": "icon.png",
     "keywords": [
         "mongo",
         "mongod",
@@ -45,5 +46,9 @@
                 "path": "./syntaxes/mongod-config.tmLanguage.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dalirnet/vscode-mongod-config.git"
     }
 }
