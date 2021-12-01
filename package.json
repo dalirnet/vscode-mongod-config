@@ -1,0 +1,25 @@
+{
+    "name": "mongod-config",
+    "displayName": "Mongod config",
+    "description": "Syntax highlight for Mongod config files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mongod-config",
+            "aliases": ["Mongod config", "mongod-config"],
+            "extensions": ["mongod.conf mongod.cfg"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mongod-config",
+            "scopeName": "source.mongod",
+            "path": "./syntaxes/mongod-config.tmLanguage.json"
+        }]
+    }
+}
