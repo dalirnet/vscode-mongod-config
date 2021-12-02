@@ -1,9 +1,9 @@
 {
     "name": "mongod-config",
     "displayName": "Mongod config",
-    "description": "Syntax highlight and formatter for Mongod config files",
+    "description": "Syntax highlight, autocomplete and formatter for Mongod config files",
     "publisher": "dalirnet",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.62.0"
     },
@@ -16,7 +16,10 @@
         "mongo",
         "mongod",
         "conf",
-        "cfg"
+        "cfg",
+        "highlight",
+        "autocomplete",
+        "formatter"
     ],
     "activationEvents": [
         "onLanguage:mongod-config"

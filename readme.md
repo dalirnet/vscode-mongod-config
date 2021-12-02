@@ -1,6 +1,6 @@
 # Mongod config syntax support for VS Code
 
-Syntax highlight and formatter for Mongod config files
+Syntax highlight, autocomplete and formatter for Mongod config files
 
 ![demo](https://raw.githubusercontent.com/dalirnet/vscode-mongod-config/main/demo.png)
 
